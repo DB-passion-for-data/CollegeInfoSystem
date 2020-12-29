@@ -25,9 +25,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'ccv+4s!d+j2al92v52ud5s$e0=pc8ug6jej99t@o@yh2*m0syo'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://collegeinfosystemtnp.herokuapp.com"]
 
 
 # Application definition
