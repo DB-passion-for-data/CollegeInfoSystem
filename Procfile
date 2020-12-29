@@ -1,1 +1,1 @@
-web: gunicorn CollegeInfoSystem.wsgi --log-file -
+web: gunicorn CIS.wsgi --log-file -
